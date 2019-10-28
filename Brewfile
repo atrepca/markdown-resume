@@ -1,0 +1,2 @@
+brew "pandoc"
+cask "wkhtmltopdf"

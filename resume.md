@@ -19,7 +19,7 @@
 **Senior Devops Engineer** | May 2019-Current  
 • Completed migration of OARS application from EC2 public cloud to VPC  
 • Researched migration of existing SFTP EC2 servers to AWS Transfer for SFTP service  
-• Helped onboard new team members
+• Helped onboard new team members  
 • Started the Terraform 0.12 upgrade effort
 
 **[TouchAppMedia](http://www.touchappmedia.com/)** | Bucharest, Romania  

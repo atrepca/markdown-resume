@@ -2,7 +2,7 @@
 
 #### Linux System Administrator, supporting DevSecOps culture and practices. I believe in technology solutions that are easy to use and sustainable over time.
 
-###### [ $address ] • [ [$email](mailto:$email) ] • [ $phone_number ]
+###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ]
 
 ## Skills
 • **Operating Systems:** Linux (Debian and Red Hat based distributions), Unix (HP-UX), VMware, Windows (2000, 2003, 2008)  

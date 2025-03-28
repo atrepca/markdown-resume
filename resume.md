@@ -1,67 +1,68 @@
-# Alex Trepca
+---
+pagetitle: 'Resume'
+title-meta: 'Resume'
+author-meta: 'Alex Trepca'
+keywords: [Generated using https://github.com/atrepca/markdown-resume]
+---
 
-#### Linux System Administrator, supporting DevSecOps culture and practices. I believe in technology solutions that are easy to use and sustainable over time.
+# Alex Trepca  
 
-###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ]
+#### Hands-on SRE leader with extensive experience in cloud infrastructure, reliability, and automation. Proven track record in leading high-performing teams, managing complex technical roadmaps, and optimizing cloud costs. DevOps advocate and SysAdmin at heart, I'm passionate about building scalable, sustainable systems with simple, and effective solutions.
+
+###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ] • [[LinkedIn]($linkedin)] • [[GitHub]($github)]
 
 ## Skills
-• **Operating Systems:** Linux (Debian and Red Hat based distributions), Unix (HP-UX), VMware, Windows (2000, 2003, 2008)  
-• **Scripting/Languages:** Python, Bash, HTML, CSS, PHP, SQL  
-• **Configuration Management:** Ansible, Puppet, Bcfg2  
-• **Provisioning:** Terraform (HCL)
-
-## Continuing Education
-• **Python Programming**, NYU School of Professional Studies, Oct 2014 - Dec 2014  
-• **Red Hat Certified System Administrator (RHCSA)**, Red Hat Inc., ID # [120-105-390](https://www.redhat.com/rhtapps/services/verify?certId=120-105-390), Jun 2012
+• **Leadership:** Global team management, strategic planning, roadmap development  
+• **Cloud Infrastructure:** AWS, Kubernetes (EKS), Docker, GCP, VMware  
+• **Automation & Orchestration:** Terraform, ArgoCD, Helm, Ansible, Open Policy Agent (OPA)  
+• **Reliability Engineering:** Cost optimization, compliance as code (SOC2, GDPR, PCI-DSS)  
+• **Programming & Scripting:** Python, Bash
 
 ## Experience
-**[2U, Inc.](https://2u.com/)** | New York, NY  
-**Senior Devops Engineer** | May 2019-Current  
-• Completed migration of OARS application from EC2 public cloud to VPC  
-• Researched migration of existing SFTP EC2 servers to AWS Transfer for SFTP service  
-• Helped onboard new team members  
-• Started the Terraform 0.12 upgrade effort
+**[2U, Inc.](https://2u.com/) | Aug 2014 - Current**  
+• 2U is an educational technology company that partners with non-profit colleges and universities to build, deliver and support online degree & non-degree programs  
+• It has 260+ Partners, 4700+ Digital offerings, 91M+ Learner network, and is also the parent company of [edX](https://www.edx.org/), an online education platform founded at MIT & Harvard
 
-**[TouchAppMedia](http://www.touchappmedia.com/)** | Bucharest, Romania  
-**Senior IT Operations Engineer** (Client 2U, Inc., New York, NY - 100% remote) | Nov 2015-May 2019  
-• Set up Ansible configuration management using roles, to replace Puppet  
-• Migrated AWS resources from public cloud to AWS VPC, to increase security  
-• Researched and implemented backup solution for MongoDB databases using Python and Jenkins  
-• Led the effort to upgrade MongoDB databases to the latest version  
-• Improved security by testing and updating Puppet code for new Ubuntu distributions  
-• Implemented AWS Database Migration Service using Terraform for 30+ RDS instances  
-• Configured continuous integration for Terraform with pull request testing job  
-• Contributed to Open Source projects  
-• Set up Node.js Lambda to notify Slack on AWS EC2 maintenance events, using Terraform
+**Senior Director, Site Reliability Engineering |** Remote, NJ **|** Jun 2024 - Current  
+• Built and led global SRE and IT Networking teams, driving innovation in automation, and infrastructure scalability to support business objectives  
+• Achieved 60% cost savings for Kubernetes clusters through innovative vendor optimization and resource efficiency strategies  
+• Responsible for all cloud-based web, platform and system infrastructure across the group  
+• Develop and execute strategic roadmaps, aligning team efforts with business needs  
 
-**[CloudAware](https://cloudaware.com/)** | Bucharest, Romania  
-**Senior IT Operations Engineer** (Client 2U, Inc., New York, NY - 100% remote) | Apr 2015-Oct 2015  
-• Improved the Puppet codebase by fixing deprecated code in preparation for a major version upgrade  
-• Migrated memory intensive ETL application to optimized hardware, reducing infrastructure cost  
-• Tuned Puppet master Passenger settings to enhance performance and stability
+**Director, Site Reliability Engineering |** Remote, NJ **|** Jan 2020 - Jun 2024  
+• Led the migration effort of 60+ AWS accounts in 3 different orgs into a single AWS organization using Control Tower and IAM Identity Center, to enforce security and best practices:  
+\ \ \ \ \ ◦ 40 people involved including 11 AWS experts, split into 6 teams  
+\ \ \ \ \ ◦ 6 weeks of planning that concluded in 3 days of in person work @ the NYC AWS office  
+\ \ \ \ \ ◦ Silos came down and teams from 3 verticals started collaborating  
+\ \ \ \ \ ◦ Implemented Account Factory for Terraform (AFT), and presented to team  
+• Managed a global team of 20 FTEs & contractors, streamlined tools and processes, and organized multiple AWS GameDay events to enhance team skills and collaboration  
+• Demonstrated ability to establish and spin down teams effectively, consistently delivering results and maximizing efficiency  
+• Achieved $1MM cost savings in 2024 by optimizing resource usage  
+• Improved development efficiency and compliance using Terraform CI with Atlantis and Open Policy Agent to enforce compliance as code  
+• Automated evidence collection and reporting for highly regulated environments  
+• Managed relationships with key vendors, ensuring effective collaboration and support
 
-**[2U, Inc.](https://2u.com/)** | New York, NY  
-**Senior IT Operations Engineer** | Aug 2014-Apr 2015  
-• Administered AWS cloud infrastructure of 500+ Ubuntu instances  
-• Automated Puppet code deployments and set up validation testing on pull requests using Jenkins  
-• Implemented Librarian-Puppet for module management and the Hiera eyaml key/value lookup tool, to separate data from code  
-• Set up cloud-init for instance initialization and auto-signing of Puppet certificate requests, to automate provisioning  
-• Played a vital role in multi-tenant migration project, ensuring that Puppet can smoothly accommodate new configurations  
-• Greatly improved the Puppet codebase by fixing validation, lint and deprecation errors, simplifying syntax and cleaning up unused code  
-<br/><br/><br/>
-**[Rent The Runway](https://www.renttherunway.com/)** | New York, NY  
-**System Engineer** | Jan 2013-Aug 2014  
-• Administered 300+ CentOS and RedHat servers in Rackspace Cloud  
+**Senior DevOps Engineer |** New York, NY **|** Aug 2014 - Jan 2020  
+• Administered AWS cloud infrastructure of 600+ Ubuntu instances, ensuring efficient and reliable operations  
+• Established Ansible configuration management using roles to replace Puppet, improving efficiency  
+• Trained developers and vendors on Terraform
+• Automated Puppet code deployments and implemented validation testing using Jenkins, improving deployment efficiency and code quality  
+• Deployed librarian-puppet for efficient module management and Hiera with encryption, to separate data from code  
+• Migrated apps from EC2 public cloud to the VPC, enhancing security and control (Python, SFTP)  
+• Automated EC2 provisioning with cloud-init for instance initialization and Puppet certificate auto-signing
+
+**[Rent The Runway](https://www.renttherunway.com/)**  
+**System Engineer |** New York, NY **|** Jan 2013 - Aug 2014  
+• Administered 300+ CentOS and RedHat servers in Rackspace Cloud, tightening systems security  
 • Implemented configuration management with Puppet and MCollective for orchestration  
 • Scaled the Continuous Integration infrastructure with distributed Jenkins and Selenium Grid  
 • Set up flexible and controlled development environments with Vagrant  
-• Provisioned centralized logging using rsyslog, Logstash, Elasticsearch and Kibana  
+• Provisioned centralized logging using rsyslog & Elasticsearch, Logstash and Kibana (ELK)  
 • Application and system monitoring with Graphite, Nagios and PagerDuty integration  
 • Researched, tested and implemented load balanced RabbitMQ cluster with high availability mirrored queues  
-• Tightened systems security
 
-**[Wireless Generation](https://amplify.com/)** | New York, NY  
-**Linux System Administrator** | May 2011–Dec 2012  
+**[Wireless Generation](https://amplify.com/)**  
+**Linux System Administrator |** New York, NY **|** May 2011 – Dec 2012  
 • Administered 1000+ CentOS servers for multiple application platforms  
 • Configuration management with Bcfg2 and Genshi templating  
 • Change management with the Git revision control system and Gerrit code review  
@@ -73,3 +74,11 @@
 • Automated system provisioning using kickstart, Cobbler, and Pulp utilities  
 • Scripted backup operations with Bash and Ruby  
 • Mentored new Unix team members
+
+## Continuing Education
+• **Python Programming**, NYU School of Professional Studies, Oct 2014 - Dec 2014  
+• **Red Hat Certified System Administrator (RHCSA)**, Red Hat Inc., ID # [120-105-390](https://www.redhat.com/rhtapps/services/verify?certId=120-105-390), Jun 2012
+
+## Interests
+• **Home automation**, tinkering with my [Home Assistant](https://www.home-assistant.io/) setup constantly, turning my house into YAML  
+• **Running**, recently discovered passion - ran my [first half marathon](https://www.strava.com/activities/13855739626) after 10 months of prep

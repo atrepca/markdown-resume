@@ -1,75 +1,59 @@
 # Alex Trepca
 
-#### Linux System Administrator, supporting DevSecOps culture and practices. I believe in technology solutions that are easy to use and sustainable over time.
+#### Staff-level SRE with 10+ years of hands-on experience building scalable, observable, and cost-efficient cloud infrastructure with Kubernetes, Terraform, and Python. DevOps advocate and SysAdmin at heart, I'm passionate about building scalable, resilient systems and fostering a culture of continuous improvement while keeping things simple, sustainable, and effective.
 
-###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ]
+###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ] • [[LinkedIn]($linkedin)] • [[GitHub]($github)]
 
 ## Skills
-• **Operating Systems:** Linux (Debian and Red Hat based distributions), Unix (HP-UX), VMware, Windows (2000, 2003, 2008)  
-• **Scripting/Languages:** Python, Bash, HTML, CSS, PHP, SQL  
-• **Configuration Management:** Ansible, Puppet, Bcfg2  
-• **Provisioning:** Terraform (HCL)
-
-## Continuing Education
-• **Python Programming**, NYU School of Professional Studies, Oct 2014 - Dec 2014  
-• **Red Hat Certified System Administrator (RHCSA)**, Red Hat Inc., ID # [120-105-390](https://www.redhat.com/rhtapps/services/verify?certId=120-105-390), Jun 2012
+• **Core Stack:** AWS, Kubernetes (EKS), Terraform, Python, ArgoCD, Prometheus, Grafana  
+• **Platform Engineering:** CI/CD pipelines, GitHub Actions, Helm, OPA (Open Policy Agent), Ansible  
+• **Reliability Practices:** SLOs/SLIs, observability, chaos engineering, blameless postmortems, compliance automation (SOC2, PCI)  
+• **Technical Leadership:** Reliability strategy, cross-team collaboration, cost optimization, roadmap development  
+• **Data Stores:** MySQL, PostgreSQL, MongoDB  
 
 ## Experience
-**[2U, Inc.](https://2u.com/)** | New York, NY  
-**Senior Devops Engineer** | May 2019-Current  
-• Completed migration of OARS application from EC2 public cloud to VPC  
-• Researched migration of existing SFTP EC2 servers to AWS Transfer for SFTP service  
-• Helped onboard new team members  
-• Started the Terraform 0.12 upgrade effort
+**[2U, Inc.](https://2u.com/) | Aug 2014 - Current**  
+• 2U is an edtech company partnering with 260+ non-profit universities to deliver 4700+ online degree and non-degree programs
 
-**[TouchAppMedia](http://www.touchappmedia.com/)** | Bucharest, Romania  
-**Senior IT Operations Engineer** (Client 2U, Inc., New York, NY - 100% remote) | Nov 2015-May 2019  
-• Set up Ansible configuration management using roles, to replace Puppet  
-• Migrated AWS resources from public cloud to AWS VPC, to increase security  
-• Researched and implemented backup solution for MongoDB databases using Python and Jenkins  
-• Led the effort to upgrade MongoDB databases to the latest version  
-• Improved security by testing and updating Puppet code for new Ubuntu distributions  
-• Implemented AWS Database Migration Service using Terraform for 30+ RDS instances  
-• Configured continuous integration for Terraform with pull request testing job  
-• Contributed to Open Source projects  
-• Set up Node.js Lambda to notify Slack on AWS EC2 maintenance events, using Terraform
+**Senior Manager, Site Reliability Engineering (Staff-level IC Role) |** Remote, NJ **|** Jun 2024 - Current  
+• Led the architecture and implementation of a global AWS-based virtual desktop infrastructure (VDI) for 200+ offshore contractors, enabling secure, compliant onboarding within hours  
+• Achieved 60% cost reduction across Kubernetes clusters by driving vendor and resource optimization strategies  
+• Owned cloud infrastructure lifecycle across all environments, with Terraform, ArgoCD, and Helm powering GitOps workflows  
+• Built tools and guardrails for developers to safely deploy and operate infrastructure in a multi-account AWS environment
 
-**[CloudAware](https://cloudaware.com/)** | Bucharest, Romania  
-**Senior IT Operations Engineer** (Client 2U, Inc., New York, NY - 100% remote) | Apr 2015-Oct 2015  
-• Improved the Puppet codebase by fixing deprecated code in preparation for a major version upgrade  
-• Migrated memory intensive ETL application to optimized hardware, reducing infrastructure cost  
-• Tuned Puppet master Passenger settings to enhance performance and stability
+**Manager, Site Reliability Engineering (Senior IC Role) |** Remote, NJ **|** Jan 2020 - Jun 2024  
+• Led and executed a multi-org migration of 60+ AWS accounts into a unified AWS Control Tower setup with IAM Identity Center and Account Factory for Terraform (AFT):  
+\ \ \ \ \ ◦ Collaborated with 6 cross-functional teams and 11 AWS engineers / 40 people total  
+\ \ \ \ \ ◦ Successfully planned over 6 weeks, executed in 3 days onsite at AWS NYC  
+• Introduced CI/CD pipeline enhancements using Atlantis / GitHub Actions and OPA for Terraform policy enforcement, reducing misconfigurations and speeding up delivery  
+• Automated compliance evidence gathering for SOC2/PCI-DSS, reducing manual audit effort by over 80%  
+• Organized internal AWS GameDays and learning sessions to upskill developers in infrastructure ownership and SRE concepts  
+• Achieved $2MM cost savings in 2024 by optimizing resource usage  
+• Managed relationships with key vendors, ensuring effective collaboration and support
 
-**[2U, Inc.](https://2u.com/)** | New York, NY  
-**Senior IT Operations Engineer** | Aug 2014-Apr 2015  
-• Administered AWS cloud infrastructure of 500+ Ubuntu instances  
-• Automated Puppet code deployments and set up validation testing on pull requests using Jenkins  
-• Implemented Librarian-Puppet for module management and the Hiera eyaml key/value lookup tool, to separate data from code  
-• Set up cloud-init for instance initialization and auto-signing of Puppet certificate requests, to automate provisioning  
-• Played a vital role in multi-tenant migration project, ensuring that Puppet can smoothly accommodate new configurations  
-• Greatly improved the Puppet codebase by fixing validation, lint and deprecation errors, simplifying syntax and cleaning up unused code  
-<br/><br/><br/>
-**[Rent The Runway](https://www.renttherunway.com/)** | New York, NY  
-**System Engineer** | Jan 2013-Aug 2014  
-• Administered 300+ CentOS and RedHat servers in Rackspace Cloud  
-• Implemented configuration management with Puppet and MCollective for orchestration  
-• Scaled the Continuous Integration infrastructure with distributed Jenkins and Selenium Grid  
-• Set up flexible and controlled development environments with Vagrant  
-• Provisioned centralized logging using rsyslog, Logstash, Elasticsearch and Kibana  
-• Application and system monitoring with Graphite, Nagios and PagerDuty integration  
-• Researched, tested and implemented load balanced RabbitMQ cluster with high availability mirrored queues  
-• Tightened systems security
+**Senior DevOps Engineer |** New York, NY **|** Aug 2014 - Jan 2020  
+• Migrated legacy infrastructure to a fully automated Terraform / Ansible pipeline, increasing reliability and auditability  
+• Transitioned configuration management from Puppet to Ansible, simplifying operations and reducing deploy time by 40%  
+• Developed internal Terraform training and enablement program for application teams  
+• Automated EC2 instance provisioning with cloud-init and integrated secure Puppet auto-signing  
+• Managed 600+ Ubuntu-based AWS instances, focusing on high-availability, performance tuning, and deployment automation with Jenkins
 
-**[Wireless Generation](https://amplify.com/)** | New York, NY  
-**Linux System Administrator** | May 2011–Dec 2012  
-• Administered 1000+ CentOS servers for multiple application platforms  
-• Configuration management with Bcfg2 and Genshi templating  
-• Change management with the Git revision control system and Gerrit code review  
-• Experience with Git branching strategies and continuous integration with Jenkins  
-• Experienced in system and application release deployments  
-• Designed and provisioned new environments in AWS  
-• Infrastructure monitoring and metrics with Nagios, Ganglia, and Splunk  
-• Design and implementation of DNS platform  
-• Automated system provisioning using kickstart, Cobbler, and Pulp utilities  
-• Scripted backup operations with Bash and Ruby  
-• Mentored new Unix team members
+**[Rent The Runway](https://www.renttherunway.com/)**  
+**System Engineer |** New York, NY **|** Jan 2013 - Aug 2014  
+• Automated provisioning and configuration of 300+ CentOS / RedHat servers using Puppet and MCollective  
+• Built and scaled distributed CI pipelines with Jenkins and Selenium Grid  
+• Designed and deployed centralized logging (ELK stack) and monitoring (Graphite, Nagios, PagerDuty)  
+• Researched and deployed a load-balanced, HA RabbitMQ cluster for scalable event processing
+<div style="page-break-before: always;"></div><!-- page break for layout, remove if not needed -->
+**[Wireless Generation](https://amplify.com/)**  
+**Linux System Administrator |** New York, NY **|** May 2011 – Dec 2012  
+• Managed 1000+ CentOS servers and built tooling to automate provisioning (kickstart, Cobbler, Pulp)  
+• Designed AWS-hosted environments and automated infrastructure monitoring with Nagios, Ganglia, and Splunk  
+• Led DNS system overhaul and Git-based deployment workflows  
+• Mentored junior team members and implemented release automation using Jenkins and Git-based change control
+
+## Interests
+• **Home automation**: Built an advanced [Home Assistant](https://www.home-assistant.io/) setup with YAML-driven scenes, automations, and self-hosted integrations  
+• **Running**: Recently completed my first half marathon after 10 months of training and data-driven pacing ([Strava](https://www.strava.com/activities/13855739626))  
+• **Community:** Volunteered at Kubernetes Community Days NY 2024, supporting CNCF's first NYC event through on-site logistics and attendee coordination ([Credly](https://www.credly.com/badges/bf906fbd-6a76-443d-9a68-5998dca1d12d/public_url))  
+• Resume generated with code using my own tool: [`markdown-resume`](https://github.com/atrepca/markdown-resume) - because yes, even resumes deserve CI/CD

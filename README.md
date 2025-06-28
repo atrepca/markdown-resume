@@ -1,14 +1,30 @@
 ## My Markdown Resume
 
-This converts a Markdown resume to HTML using [pandoc](https://pandoc.org/), then from HTML to PDF using [wkhtmltopdf](https://wkhtmltopdf.org/).
+This project converts a Markdown resume to HTML using [pandoc](https://pandoc.org/), and then from HTML to PDF using [wkhtmltopdf](https://wkhtmltopdf.org/).
 
 ### Requirements
-**MacOS:** To install requirements run `brew bundle`. You can get `brew` from [brew.sh](https://brew.sh/), if you don't have it.
 
-As of 12/16/2024 the wkhtmltopdf brew cask was disabled, it needs to be installed from the official site.
+**MacOS:**  
+Run `brew bundle` to install requirements. If you don't have Homebrew, get it from [brew.sh](https://brew.sh/).
+
+**Note:**  
+As of 12/16/2024, the Homebrew cask for wkhtmltopdf is deprecated. You must install wkhtmltopdf from the [official website](https://wkhtmltopdf.org/downloads.html).
 
 ### Usage
-The Resume file is [`resume.md`](resume.md); make edits as desired, then generate PDF using:  
-```
-make generate-pdf
-```
+
+1. Edit resume in [`resume.md`](resume.md).
+2. Generate the HTML and PDF with:
+
+    ```sh
+    make generate-pdf
+    ```
+
+The Makefile will handle downloading the main CSS and running all conversion steps.  
+
+### Output
+
+- The generated HTML will be saved as `files/resume.html`.
+- The generated PDF will be saved as `files/alex-trepca-resume.pdf`.
+
+---
+For more details or customization, see comments in the Makefile.

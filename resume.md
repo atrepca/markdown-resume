@@ -1,28 +1,34 @@
 # Alex Trepca
 
-#### Staff-level SRE with 10+ years of hands-on experience building scalable, observable, and cost-efficient cloud infrastructure with Kubernetes, Terraform, and Python. DevOps advocate and SysAdmin at heart, I'm passionate about building scalable, resilient systems and fostering a culture of continuous improvement while keeping things simple, sustainable, and effective.
+#### Hands-on Platform Engineer with deep experience designing and operating Kubernetes-based cloud infrastructure in AWS and Azure. Expert in Infrastructure as Code (Terraform), CI/CD automation (GitHub Actions, Atlantis), and multi-account cloud governance. I'm passionate about building secure, scalable systems that enable high-velocity engineering teams
 
-###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ] • [[LinkedIn]($linkedin)] • [[GitHub]($github)]
+###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ] • [ [LinkedIn]($linkedin) ] • [ [GitHub]($github) ]
 
 ## Skills
-• **Core Stack:** AWS, Kubernetes (EKS), Terraform, Python, ArgoCD, Prometheus, Grafana  
-• **Platform Engineering:** CI/CD pipelines, GitHub Actions, Helm, OPA (Open Policy Agent), Ansible  
-• **Reliability Practices:** SLOs/SLIs, observability, chaos engineering, blameless postmortems, compliance automation (SOC2, PCI)  
-• **Technical Leadership:** Reliability strategy, cross-team collaboration, cost optimization, roadmap development  
+• **Cloud Platforms:** AWS (primary, 10+ years), Azure, familiar with GCP  
+• **Platform Engineering:** CI/CD pipelines, GitHub Actions, Helm, Kustomize  
+• **Languages & Scripting:** Python, Shell/Bash scripting, Ansible  
+• **Security & Reliability Practices:** Policy-as-code (OPA), secrets management, compliance automation (SOC2, PCI), SLOs/SLIs, observability, incident response  
 • **Data Stores:** MySQL, PostgreSQL, MongoDB  
 
 ## Experience
-**[2U, Inc.](https://2u.com/) | Aug 2014 - Current**  
+**[Apollo Global Management, Inc.](https://www.apollo.com/)**  
+**Lead Site Reliability Engineer, Consultant |** New York, NY **|** Oct 2025 - Current  
+• Led Apollo’s SRE strategy and maturity framework, defining observability, reliability foundations, resilience (HA/DR), and platform enablement  
+• Owned Apollo’s observability consolidation, evaluating open-source and commercial platforms to migrate from ~10 tools to a single unified platform, enabling standardized alerting, cross-team visibility, end-to-end incident response, and cost optimization  
+• Scaled secure platform and developer workflows, enabling local Terraform plan execution for core AKS infrastructure, implementing Okta-backed SSO/SCIM for observability tooling, and driving enterprise developer enablement initiatives
+
+**[2U, Inc.](https://2u.com/) | Aug 2014 - Sep 2025**  
 • 2U is an edtech company partnering with 260+ non-profit universities to deliver 4700+ online degree and non-degree programs
 
-**Senior Manager, Site Reliability Engineering (Staff-level IC Role) |** Remote, NJ **|** Jun 2024 - Current  
+**Senior Manager, Site Reliability Engineering |** Remote, NJ **|** Jun 2024 - Sep 2025  
 • Led the architecture and implementation of a global AWS-based virtual desktop infrastructure (VDI) for 200+ offshore contractors, enabling secure, compliant onboarding within hours  
 • Achieved 60% cost reduction across Kubernetes clusters by driving vendor and resource optimization strategies  
 • Owned cloud infrastructure lifecycle across all environments, with Terraform, ArgoCD, and Helm powering GitOps workflows  
 • Built tools and guardrails for developers to safely deploy and operate infrastructure in a multi-account AWS environment
 
-**Manager, Site Reliability Engineering (Senior IC Role) |** Remote, NJ **|** Jan 2020 - Jun 2024  
-• Led and executed a multi-org migration of 60+ AWS accounts into a unified AWS Control Tower setup with IAM Identity Center and Account Factory for Terraform (AFT):  
+**Manager, Site Reliability Engineering |** Remote, NJ **|** Jan 2020 - Jun 2024  
+• Led and executed a multi-org migration of 60+ AWS accounts into a unified AWS Control Tower setup with IAM Identity Center and Account Factory for Terraform (AFT), establishing centralized security baselines and least-privilege access controls across OUs:  
 \ \ \ \ \ ◦ Collaborated with 6 cross-functional teams and 11 AWS engineers / 40 people total  
 \ \ \ \ \ ◦ Successfully planned over 6 weeks, executed in 3 days onsite at AWS NYC  
 • Introduced CI/CD pipeline enhancements using Atlantis / GitHub Actions and OPA for Terraform policy enforcement, reducing misconfigurations and speeding up delivery  
@@ -44,7 +50,7 @@
 • Built and scaled distributed CI pipelines with Jenkins and Selenium Grid  
 • Designed and deployed centralized logging (ELK stack) and monitoring (Graphite, Nagios, PagerDuty)  
 • Researched and deployed a load-balanced, HA RabbitMQ cluster for scalable event processing
-<div style="page-break-before: always;"></div><!-- page break for layout, remove if not needed -->
+
 **[Wireless Generation](https://amplify.com/)**  
 **Linux System Administrator |** New York, NY **|** May 2011 – Dec 2012  
 • Managed 1000+ CentOS servers and built tooling to automate provisioning (kickstart, Cobbler, Pulp)  
@@ -54,6 +60,6 @@
 
 ## Interests
 • **Home automation**: Built an advanced [Home Assistant](https://www.home-assistant.io/) setup with YAML-driven scenes, automations, and self-hosted integrations  
-• **Running**: Recently completed my first half marathon after 10 months of training and data-driven pacing ([Strava](https://www.strava.com/activities/13855739626))  
+• **Endurance Sports**: Completed first half marathon after 10 months of data-driven training ([Strava](https://www.strava.com/activities/13855739626)); avid Zwifter  
 • **Community:** Volunteered at Kubernetes Community Days NY 2024, supporting CNCF's first NYC event through on-site logistics and attendee coordination ([Credly](https://www.credly.com/badges/bf906fbd-6a76-443d-9a68-5998dca1d12d/public_url))  
 • Resume generated with code using my own tool: [`markdown-resume`](https://github.com/atrepca/markdown-resume) - because yes, even resumes deserve CI/CD

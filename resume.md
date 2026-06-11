@@ -1,20 +1,22 @@
 # Alex Trepca
 
-#### Hands-on Platform Engineer with deep experience designing and operating Kubernetes-based cloud infrastructure in AWS and Azure. Expert in Infrastructure as Code (Terraform), CI/CD automation (GitHub Actions, Atlantis), and multi-account cloud governance. I'm passionate about building secure, scalable systems that enable high-velocity engineering teams
+#### Hands-on Platform Engineer with deep experience designing and operating Kubernetes-based cloud infrastructure in AWS and Azure. Expert in Infrastructure as Code (Terraform), CI/CD automation (GitHub Actions, Atlantis), and multi-account cloud governance. I'm passionate about building secure, scalable systems that enable high-velocity engineering teams.
 
 ###### [ $address ] • [ [$email](mailto:$email) ] • [ [$phone_number](tel:$phone_number) ] • [ [LinkedIn]($linkedin) ] • [ [GitHub]($github) ]
 
 ## Skills
-• **Cloud Platforms:** AWS (primary, 10+ years), Azure, familiar with GCP  
-• **Platform Engineering:** CI/CD pipelines, GitHub Actions, Helm, Kustomize  
+• **Core Stack:** Kubernetes (AKS, EKS), Terraform, ArgoCD, Flux, Git, OPA (Open Policy Agent)  
+• **Cloud Platforms:** AWS (primary, 10+ years), Azure, with GCP architectural familiarity  
+• **CI/CD & Automation:** GitHub Actions, Atlantis, Helm, Kustomize, Jenkins  
 • **Languages & Scripting:** Python, Shell/Bash scripting, Ansible  
-• **Security & Reliability Practices:** Policy-as-code (OPA), secrets management, compliance automation (SOC2, PCI), SLOs/SLIs, observability, incident response  
-• **Data Stores:** MySQL, PostgreSQL, MongoDB  
+• **Security & Compliance:** Secrets management, policy-as-code, SOC2/PCI-DSS compliance tooling, RBAC, least-privilege access  
+• **Observability & Reliability:** SLOs/SLIs, incident response, monitoring, alerting, blameless postmortems  
+• **Data Stores:** MySQL, PostgreSQL, MongoDB
 
 ## Experience
 **[Apollo Global Management, Inc.](https://www.apollo.com/)**  
 **Lead Site Reliability Engineer, Consultant |** New York, NY **|** Oct 2025 - Current  
-• Led Apollo’s SRE strategy and maturity framework, defining observability, reliability foundations, resilience (HA/DR), and platform enablement  
+• Led Apollo’s SRE strategy for mission-critical production systems, defining SLOs, observability standards, and resilience (HA/DR) for 24/7 enterprise workloads  
 • Owned Apollo’s observability consolidation, evaluating open-source and commercial platforms to migrate from ~10 tools to a single unified platform, enabling standardized alerting, cross-team visibility, end-to-end incident response, and cost optimization  
 • Scaled secure platform and developer workflows, enabling local Terraform plan execution for core AKS infrastructure, implementing Okta-backed SSO/SCIM for observability tooling, and driving enterprise developer enablement initiatives
 
